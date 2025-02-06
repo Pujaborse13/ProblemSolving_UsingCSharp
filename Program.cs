@@ -12,6 +12,11 @@ class Program
         MovieTicketPrice movieTicketPrice = new MovieTicketPrice();
         movieTicketPrice.CalculateTicketPrice();
 
+        //Log In System
+        LogInSystem logInSystem = new LogInSystem();
+        logInSystem.LogIn();
+
+
     }
 }
 
