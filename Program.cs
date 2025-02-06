@@ -5,7 +5,12 @@ class Program
 {
     static void Main()
     {
-        Console .WriteLine("Welcome to problem solving");
+        //Console .WriteLine("Welcome to problem solving");
+
+
+        //Movie Ticket Price
+        MovieTicketPrice movieTicketPrice = new MovieTicketPrice();
+        movieTicketPrice.CalculateTicketPrice();
 
     }
 }
