@@ -38,14 +38,16 @@ class Program
                       NumberOfWorkdays numberOfWorkdays = new NumberOfWorkdays();
                       numberOfWorkdays.CalculateWorkDays();
 
+
+                    //calculates the sum of even and odd digits in a given integer separately.
+                     SumOfEvenOddDigit CalculateSumOfEvenOddDigit = new SumOfEvenOddDigit();
+                     CalculateSumOfEvenOddDigit.CalculateSumOfEvenOddDigit();
                 */
 
 
-        //calculates the sum of even and odd digits in a given integer separately.
-         SumOfEvenOddDigit CalculateSumOfEvenOddDigit = new SumOfEvenOddDigit();
-         CalculateSumOfEvenOddDigit.CalculateSumOfEvenOddDigit();
-
-
+                    //Perfect Square Check
+                    PerfectSquare perfectSquare = new PerfectSquare();
+                    perfectSquare.PerfectSquareCheck();
 
 
 
