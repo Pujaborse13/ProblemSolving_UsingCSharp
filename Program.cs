@@ -42,12 +42,18 @@ class Program
                     //calculates the sum of even and odd digits in a given integer separately.
                      SumOfEvenOddDigit CalculateSumOfEvenOddDigit = new SumOfEvenOddDigit();
                      CalculateSumOfEvenOddDigit.CalculateSumOfEvenOddDigit();
-                */
+              
 
 
                     //Perfect Square Check
                     PerfectSquare perfectSquare = new PerfectSquare();
                     perfectSquare.PerfectSquareCheck();
+        */
+
+        //Unique Character String   
+        UniqueCharacterString uniqueCharacterString = new UniqueCharacterString();
+        uniqueCharacterString.CheckUniqueCharacterString();
+
 
 
 
