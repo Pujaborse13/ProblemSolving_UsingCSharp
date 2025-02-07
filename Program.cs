@@ -27,16 +27,16 @@ class Program
         CalculateAirQualityIndex calculator = new CalculateAirQualityIndex();
         calculator.CalculateAQI();
         
-
+        */
         //Display Current Time In DifferentZone
         CurrentTimeInDifferentZone currentTimeInDifferentZone = new CurrentTimeInDifferentZone();
         currentTimeInDifferentZone.DisplayCurrentTimeInDifferentZone();
 
-        */
+        
 
-        //Number of Workdays between two dates
-        NumberOfWorkdays numberOfWorkdays = new NumberOfWorkdays();
-        numberOfWorkdays.CalculateWorkDays();
+        ////Number of Workdays between two dates
+        //NumberOfWorkdays numberOfWorkdays = new NumberOfWorkdays();
+        //numberOfWorkdays.CalculateWorkDays();
 
 
 
