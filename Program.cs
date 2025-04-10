@@ -1,64 +1,46 @@
-﻿
-using ProblemSolvingUsingCSharp;
+﻿using System;
 
-class Program
+namespace ProblemSolving
 {
-    static void Main()
+   public  class Program
     {
-        //Console .WriteLine("Welcome to problem solving");
-        /*
+        static void Main(string[] args)
+        {
 
-                    //Movie Ticket Price
-                    MovieTicketPrice movieTicketPrice = new MovieTicketPrice();
-                    movieTicketPrice.CalculateTicketPrice();
+            //1
+            PrintNumbersWithoutLoop.numberInRange(1);
 
-                    //Log In System
-                    LogInSystem logInSystem = new LogInSystem();
-                    logInSystem.LogIn();
-
+            //2
+            int result = SumOfDigit.sumDigit(123);
+            Console.WriteLine("sum of digit : " +result);
 
 
-                    //Menu Driven Calculator
-                    MenuDrivenCalculator menuDrivenCalculator = new MenuDrivenCalculator();
-                    menuDrivenCalculator.Calculate();
+            //3
+            int input = 1221;
+
+            if (CheckPalindrome.PalindromeNum(input))
+            {
+
+                Console.WriteLine("Number is palindrome");
+            }
+            else {
+                Console.WriteLine("Number is not palindrome");
 
 
-                    //Calculate Air Quality Index 
-                    CalculateAirQualityIndex calculator = new CalculateAirQualityIndex();
-                    calculator.CalculateAQI();
+            }
+            
 
-
-                    //Display Current Time In DifferentZone
-                    CurrentTimeInDifferentZone currentTimeInDifferentZone = new CurrentTimeInDifferentZone();
-                    currentTimeInDifferentZone.DisplayCurrentTimeInDifferentZone();
-
-
-
-                    //Number of Workdays between two dates
-                      NumberOfWorkdays numberOfWorkdays = new NumberOfWorkdays();
-                      numberOfWorkdays.CalculateWorkDays();
-
-
-                    //calculates the sum of even and odd digits in a given integer separately.
-                     SumOfEvenOddDigit CalculateSumOfEvenOddDigit = new SumOfEvenOddDigit();
-                     CalculateSumOfEvenOddDigit.CalculateSumOfEvenOddDigit();
-              
-
-
-                    //Perfect Square Check
-                    PerfectSquare perfectSquare = new PerfectSquare();
-                    perfectSquare.PerfectSquareCheck();
-        */
-
-        //Unique Character String   
-        UniqueCharacterString uniqueCharacterString = new UniqueCharacterString();
-        uniqueCharacterString.CheckUniqueCharacterString();
+            //4
+            FizzBuzz.printFizzBuzz(1);  
 
 
 
+            //5.
+            Console.WriteLine("output "+PowerOfTwo.IsPowerofTwo(8));
+            Console.WriteLine("output "+PowerOfTwo.IsPowerofTwoModified(8));
 
+                
 
+        }
     }
 }
-
-
