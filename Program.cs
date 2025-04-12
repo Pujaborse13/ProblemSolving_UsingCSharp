@@ -6,7 +6,7 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-
+            /*
             //1
             PrintNumbersWithoutLoop.numberInRange(1);
 
@@ -39,7 +39,23 @@ namespace ProblemSolving
             Console.WriteLine("output "+PowerOfTwo.IsPowerofTwo(8));
             Console.WriteLine("output "+PowerOfTwo.IsPowerofTwoModified(8));
 
-                
+            
+            //6
+            FindLengthOFString.FindLengthOfStringWithoudUsingInbuildFun();
+            */
+            //7
+
+            //SeparateIndividualCharacters.SeparateIndividualCharactersFromStr();
+            SeparateIndividualCharacters.SeparateIndividualCharactersInRevOrder();
+
+
+
+
+
+
+
+
+
 
         }
     }
